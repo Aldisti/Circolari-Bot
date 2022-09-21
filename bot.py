@@ -5,8 +5,8 @@ import test
 app = Client(
     "B0BB0BOT",
     api_id = 7775230,
-    api_hash = "9969d92d115b3941a78ef9001aefdf50",
-    bot_token = "2089459247:AAG0UVBUr3Vdf8syrjg413gUJH4KPsdQjfM"
+    api_hash = "api hash",
+    bot_token = "bot token"
 )
 
 with app:
