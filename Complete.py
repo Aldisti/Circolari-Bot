@@ -27,9 +27,9 @@ RESULTS = {
 }
 
 CREDENZIALI = {
-    "codice": "ss16749",
-    "username": "ale-diste_04.",
-    "password": "milva63"
+    "codice": "codice-scuola",
+    "username": "username",
+    "password": "password"
 }
 
 KEYWORDS = {
@@ -44,7 +44,7 @@ KEYWORDS = {
         "entrata posticipata": 1
 }
 
-URL = "https://lordeummfo.tappo03.it/pdf/5vlAAqp90knELhBgdDhN"
+URL = "link to a server that scans the images and convert them into text"
 
 
 options = Options()
@@ -62,9 +62,9 @@ options.add_argument("--disable-plugins-discovery")
 
 APP = Client(
     "B0BB0BOT",
-    api_id = 7775230,
-    api_hash = "9969d92d115b3941a78ef9001aefdf50",
-    bot_token = "2089459247:AAG0UVBUr3Vdf8syrjg413gUJH4KPsdQjfM")
+    api_id = api id,
+    api_hash = "api hash",
+    bot_token = "bot token")
 
 def checkio(path):
     # file analyzer
@@ -99,7 +99,7 @@ def checkio(path):
 d = webdriver.Chrome(executable_path = "C:\\Users\\aless\\Downloads\\chromedriver.exe", options = options)
 wait = WebDriverWait(d, 10)
 
-d.get("https://www.portaleargo.it/argoweb/famiglia/index.jsf#")
+d.get("link of the school website")
 
 wait.until(EC.presence_of_element_located((By.ID, "codiceScuola")))
 
